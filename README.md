@@ -1,7 +1,8 @@
 # Communautés associatives chinoises sur le Web
 ## Pour une histoire numérique des Chinois d'outre-mer en France entre 2006 et 2026
+### Geoffroy Zhang
 
-**Mémoire de recherche SDHC — Geoffroy Zhang**
+**Mémoire de recherche de master 1 SDHC préparé sous la direction de M. le professeur Pierre Singaravélou**
 
 Ce dépôt contient l'ensemble des scripts mobilisés dans le cadre du protocole de recherche du mémoire. Il est organisé selon la structure des chapitres afin de permettre à tout lecteur de retrouver facilement les scripts évoqués dans le corps du texte.
 
