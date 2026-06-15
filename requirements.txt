@@ -1,0 +1,14 @@
+# Dépendances Python
+# Installation : pip install -r requirements.txt
+# Puis : playwright install chromium
+
+requests
+playwright
+beautifulsoup4
+trafilatura
+pandas
+geopy
+sqlalchemy
+pymysql
+chardet
+urllib3

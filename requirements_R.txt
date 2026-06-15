@@ -1,0 +1,7 @@
+# Dépendances R
+# Installation depuis R :
+# install.packages(c("ggplot2", "tidyverse", "modelsummary"))
+
+ggplot2
+tidyverse
+modelsummary

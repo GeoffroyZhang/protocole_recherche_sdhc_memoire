@@ -1,0 +1,17 @@
+# Données brutes — non incluses pour raisons de droits et de volume
+*.csv
+*.html
+*.png
+*.warc
+*.json
+*.pdf
+
+# Environnements Python
+__pycache__/
+*.pyc
+.env
+venv/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
