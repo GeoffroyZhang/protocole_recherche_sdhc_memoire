@@ -24,21 +24,21 @@ protocole_recherche/
 │   └── R/
 │       └── 02_visualisations_bornes_chronologiques.R
 │
-├── chapitre_2/                   # Protocole de stabilisation du corpus
+├── chapitre_2/                   # Protocole de stabilisation du corpus et d'extractions des données des archives web
 │   ├── wayback/
 │   │   ├── 01_scraping_wayback_accueil.py
-│   │   └── 02_telecharger_warc.py
+│   │   └── 02_telecharger_warc.py          # Ce script est complémentaire du 01_scraping_wayback_accueil (Vous pouvez également le lancer seul car il comprend déjà tout à l'intérieur
 │   ├── extraction/
 │   │   ├── 01_wayback_extraction_metriques.py
 │   │   └── 01_httrack_extraction_metriques.py
 │   ├── base_de_donnees/
 │   │   └── exemple_import_bdd.py
 │   ├── mcd/
-│   │   └── MCD_BDD_ASSOCIATION.pdf
+│   │   └── MCD_BDD_ASSOCIATION.pdf  
 │   └── sql/
 │       └── schema.sql
 │
-└── chapitre_3/                   # Analyse synchronique
+└── chapitre_3/                   # Analyse synchronique via l'exploitation de la base de données
     ├── 01_geocodage_association.py
     ├── R/
     │   ├── asso_public_cible.R
