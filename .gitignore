@@ -1,10 +1,6 @@
-# Données brutes — non incluses pour raisons de droits et de volume
-*.csv
+# Les fichiers pouvant contenir des données personnelles ne sont pas ajoutés
 *.html
-*.png
 *.warc
-*.json
-*.pdf
 
 # Environnements Python
 __pycache__/
