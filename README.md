@@ -129,9 +129,9 @@ install.packages(c("ggplot2", "tidyverse", "modelsummary"))
 ```
 
 ### Base de données
-- MySQL pour l'hébergement de la base de données
 - MySQL Workbench pour la modélisation et l'exécution des requêtes
 - LibreOffice Base pour la saisie manuelle via formulaires
+- LibreOffice Base pour l'hébergement de la base de données en local
 
 ### HTTrack
 Le logiciel HTTrack est disponible sur : https://www.httrack.com
