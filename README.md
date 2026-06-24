@@ -2,9 +2,9 @@
 ## Pour une histoire numérique des Chinois d'outre-mer en France entre 2006 et 2026
 ### Geoffroy Zhang
 
-**Mémoire de recherche de master 1 SDHC préparé sous la direction de M. le professeur Pierre Singaravélou**
+**Mémoire de recherche de Master 1 Sciences des Données, Histoire et Culture (SDHC) préparé sous la direction de M. le professeur Pierre Singaravélou**
 
-Ce dépôt contient l'ensemble des scripts mobilisés dans le cadre du protocole de recherche du mémoire. Il est organisé selon la structure des chapitres afin de permettre à tout lecteur de retrouver facilement les scripts évoqués dans le corps du texte.
+Ce dépôt contient l'ensemble des scripts mobilisés dans le cadre du protocole de recherche du mémoire. Il est organisé selon la structure des chapitres afin de permettre à tout lecteur de retrouver facilement les scripts évoqués dans le corps du texte. Celui-ci est encore en cours de progression et accueillera les scripts utilisé pour le Master 2.
 
 ---
 
@@ -16,7 +16,7 @@ protocole_recherche/
 ├── README.md
 ├── requirements.txt # Dépendances Python
 ├── requirements_R.txt # Dépendances R
-├── corpus_urls.txt # Liste des 46 URL composant le corpus
+├── corpus_urls.txt # Liste des 46 URL composant le corpus (URL de base)
 │
 ├── chapitre_1/ # Prospection et constitution du corpus
 │   ├── rna_nettoyage.py
@@ -34,7 +34,7 @@ protocole_recherche/
 │   ├── base_de_donnees/
 │   │   └── exemple_import_bdd.py
 │   ├── mcd/
-│   │   └── MCD_BDD_ASSOCIATION.pdf  
+│   │   └── MCD_BDD_ASSOCIATION.pdf
 │   └── sql/
 │       └── schema.sql
 │
@@ -58,6 +58,14 @@ protocole_recherche/
 ## Corpus
 
 Le fichier `corpus_urls.txt` à la racine du dépôt contient la liste des 46 URL composant le corpus de sites web associatifs. Ce fichier constitue le point d'entrée de l'ensemble des scripts du protocole. Il est passé en entrée de la majorité des scripts Python du chapitre 1 et du chapitre 2.
+
+---
+
+---
+
+## Chemin dans les scripts
+
+Les scripts ``Python`` et ``R`` contiennent des chemins pour les *input* et *output* qui correspondent à ceux du répertoire local utilisé dans le cadre du mémoire. Dans le cadre d'une réutilisation des scripts, veuillez modifier les chemins et mettre les votre. 
 
 ---
 
