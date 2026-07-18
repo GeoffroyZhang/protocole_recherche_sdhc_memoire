@@ -2,7 +2,7 @@
 ## Pour une histoire numérique des Chinois d'outre-mer en France entre 2006 et 2026
 ### Geoffroy Zhang
 
-**Mémoire de recherche de Master 1 Sciences des Données, Histoire et Culture (SDHC) préparé sous la direction de M. le professeur Pierre Singaravélou**
+**Mémoire de recherche de Master 1 Sciences des Données, Histoire et Culture (SDHC) préparé sous la direction de M. le professeur Pierre Singaravélou et M. le professeur Gaëtan Bonnot.**
 
 Ce dépôt contient l'ensemble des scripts mobilisés dans le cadre du protocole de recherche du mémoire. Il est organisé selon la structure des chapitres afin de permettre à tout lecteur de retrouver facilement les scripts évoqués dans le corps du texte. Celui-ci est encore en cours de progression et accueillera les scripts utilisé pour le Master 2.
 
