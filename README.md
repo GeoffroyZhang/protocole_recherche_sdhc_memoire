@@ -38,19 +38,31 @@ protocole_recherche/
 │   └── sql/
 │       └── schema.sql
 │
-└── chapitre_3/                   # Analyse synchronique via l'exploitation de la base de données
-    ├── 01_geocodage_association.py
-    ├── R/
-    │   ├── asso_public_cible.R
-    │   ├── associations_par_decennie.R
-    │   ├── nb_cms_sites.R
-    │   ├── nb_langues.R
-    │   ├── occurence_par_commune.R
-    │   ├── repartition_demarche.R
-    │   └── services_proposes.R
-    └── sql/
-        ├── chap3_Partie1_requetes.sql
-        └── chap3_Partie2_requetes.sql
+├──  chapitre_3/                   # Analyse synchronique via l'exploitation de la base de données
+│   ├── 01_geocodage_association.py
+│   ├── R/
+│   │   ├── asso_public_cible.R
+│   │   ├── associations_par_decennie.R
+│   │   ├── nb_cms_sites.R
+│   │   ├── nb_langues.R
+│   │   ├── occurence_par_commune.R
+│   │   ├── repartition_demarche.R
+│   │   └── services_proposes.R
+│   └── sql/
+│       ├── chap3_Partie1_requetes.sql
+│       └── chap3_Partie2_requetes.sql
+│
+├──  chapitre_4/
+│
+├──  chapitre_5/
+│
+├──  chapitre_6/
+│
+├──  chapitre_7/
+│
+├──  chapitre_8/
+│
+├──  chapitre_9/
 ```
 
 ---
