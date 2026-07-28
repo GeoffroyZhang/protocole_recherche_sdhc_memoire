@@ -71,7 +71,9 @@ Les scripts ``Python`` et ``R`` contiennent des chemins pour les *input* et *out
 
 ## Description des scripts
 
-### Chapitre 1 — Prospection et constitution du corpus
+## Partie 1 — Pour une histoire nativement numérique des associations
+
+### Chapitre 1 — Une première enquête exploratoire
 
 **`rna_nettoyage.py`**
 Nettoyage du jeu de données du Répertoire National des Associations (RNA) afin d'identifier les associations chinoises disposant d'un site web. Applique un filtre par mots-clés sur les champs `titre` et `objet` des associations.
@@ -84,7 +86,7 @@ Scripts de visualisation des bornes chronologiques, du nombre de snapshots par U
 
 ---
 
-### Chapitre 2 — Protocole de stabilisation du corpus
+### Chapitre 2 — La mise en place d'un protocole méthodologique
 
 **`wayback/01_scraping_wayback_accueil.py`**
 Script principal de collecte des archives visuelles depuis la Wayback Machine. Pour chaque URL du corpus, interroge l'API CDX, charge chaque snapshot dans un navigateur Chromium via Playwright, et sauvegarde trois fichiers par snapshot : le HTML rendu, une capture d'écran pleine page (PNG) et un fichier de métadonnées (JSON).
@@ -109,7 +111,7 @@ Schéma SQL de la base de données relationnelle permettant sa recréation.
 
 ---
 
-### Chapitre 3 — Analyse synchronique
+### Chapitre 3 — Des acteurs associatifs hétérogènes ?
 
 **`01_geocodage_association.py`**
 Géocode les adresses des associations à partir d'un CSV exporté de la base de données. Utilise l'API Nominatim (OpenStreetMap) via geopy pour transformer les adresses en coordonnées GPS. Le fichier produit est importé dans QGIS pour la cartographie.
@@ -161,4 +163,4 @@ Les analyses textométriques (CDH, graphe de similitude, AFC) ont été réalis�
 
 Si vous utilisez ce protocole dans vos travaux, merci de citer :
 
-> Zhang, Geoffroy. *Communautés associatives chinoises sur le Web. Pour une histoire numérique des Chinois d'outre-mer en France entre 2006 et 2026*. Mémoire de recherche SDHC, 2026.
+> Zhang, Geoffroy. *Communautés associatives chinoises sur le Web. Pour une histoire numérique des Chinois d'outre-mer en France entre 2006 et 2026*. Mémoire de recherche SDH, 2026.
