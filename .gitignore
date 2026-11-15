@@ -8,9 +8,5 @@ __pycache__/
 .env
 venv/
 
-# Fichiers système
-.DS_Store
-Thumbs.db
-
 # Fichiers de sauvegarde
 .ipynb_checkpoints/
